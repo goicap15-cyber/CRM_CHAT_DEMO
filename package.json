@@ -1,0 +1,16 @@
+{
+  "name": "crm-fb",
+  "version": "0.1.0",
+  "description": "ChatCRM — CRM quản lý tin nhắn Facebook (giai đoạn 1: đăng nhập & lấy cookie)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "puppeteer": "^25.12.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "private": true
+}
